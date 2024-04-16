@@ -49,7 +49,7 @@ const Contact = () => {
                 <div class="d-flex info_single align-items-center">
                   <i class="fas fa-map-marked-alt"></i>
                   <span>
-                    We have Service city across India, USA, Canada & UAE
+                    We have Service city across India, USA, Europe & UAE
                   </span>
                 </div>
               </div>

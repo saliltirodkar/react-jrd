@@ -1,25 +1,26 @@
-import logo from "../src/assets/images/logo.svg";
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Gallery from "./components/Gallery";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Tours from "./components/Tours";
-import Values from "./components/Values";
 import Navbar from "./components/navbar";
+
+import Home from "./pages/Home";
+import Catalogue from "./pages/Catalogue";
+import { Route, Routes } from "react-router-dom";
+import Diamond from "./pages/Diamond";
+import Events from "./pages/Events";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Gallery />
-      <Tours />
-      <About />
-      <Services />
-      <Values />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />} />
+          <Route path="/catalogue" element={<Catalogue />} />
+          <Route path="/diamond" element={<Diamond />} />
+          <Route path="/events" element={<Events />} />
+        </Route>
+      </Routes>
+      {/* <Home /> */}
+      {/* <Catalogue /> */}
+      {/* <Diamond /> */}
     </div>
   );
 }
