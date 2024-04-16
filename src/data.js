@@ -7,7 +7,7 @@ export const pageLinks = [
   { id: 2, href: "/catalogue", text: "catalogue" },
   { id: 3, href: "/diamond", text: "diamonds" },
   { id: 4, href: "/events", text: "events" },
-  { id: 5, href: "http://localhost:3000#about", text: "about us" },
+  { id: 5, href: "#about", text: "about us" },
 ];
 export const socialLinks = [
   { id: 1, href: "https://www.faccebook.com", icon: "fab fa-facebook" },

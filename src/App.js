@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Home from "./pages/Home";
 import Catalogue from "./pages/Catalogue";
 import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import Diamond from "./pages/Diamond";
 import Events from "./pages/Events";
 
