@@ -4,7 +4,7 @@ import Tour from "./Tour";
 const Tours = () => {
   return (
     <section className="section" id="tours">
-      <Title title="About our" subTitle="diamonds" />
+      <Title title="" subTitle="About our diamonds" />
 
       <div className="section-center featured-center">
         {tours.map((tour) => {

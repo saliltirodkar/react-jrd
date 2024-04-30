@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import { HashRouter as Router } from "react-router-dom";
 import Diamond from "./pages/Diamond";
 import Events from "./pages/Events";
+import Aboutus from "./pages/Aboutus";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/catalogue" element={<Catalogue />} />
           <Route path="/diamond" element={<Diamond />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/about" element={<Aboutus />} />
         </Route>
       </Routes>
       {/* <Home /> */}

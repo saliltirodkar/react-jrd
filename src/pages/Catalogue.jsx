@@ -3,7 +3,7 @@ import Menu from "../components/Menu";
 import Categories from "../components/Categories";
 import { itemspro } from "../data";
 import Title from "../components/Title";
-import Tour from "../components/Tour";
+
 const allCategories = [
   "all",
   ...new Set(itemspro.map((item) => item.SubCategory)),
@@ -27,16 +27,11 @@ function Catalogue() {
   return (
     <main>
       <section className="menu section">
-        <Title title="our" subTitle="products 1" />
-        <Categories categories={categories} filterItems={filterItems} />
-        <Menu items={menuItems} />
+        <Title title="" subTitle="our products 2" />
 
-        <Title title="our" subTitle="products 2" />
-        <div className="section-center featured-center">
-          {itemspro.map((tour) => {
-            return <Tour {...tour} key={tour.id} />;
-          })}
-        </div>
+        <Categories categories={categories} filterItems={filterItems} />
+
+        <Menu items={menuItems} />
       </section>
     </main>
   );

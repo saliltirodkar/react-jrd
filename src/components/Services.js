@@ -3,8 +3,8 @@ import Title from "./Title";
 import Service from "./Service";
 const Services = () => {
   return (
-    <section className="section services" id="services">
-      <Title title="our" subTitle="associates" />
+    <section className="section services-bg" id="services">
+      <Title title="" subTitle="our associates" />
 
       <div className="section-center services-center">
         {services.map((service) => {

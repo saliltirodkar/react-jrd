@@ -7,7 +7,7 @@ import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Tours from "../components/Tours";
-import Values from "../components/Values";
+// import Values from "../components/Values";
 import Navbar from "../components/navbar";
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
       <Tours />
       <About />
       <Services />
-      <Values />
+      {/* <Values /> */}
       <Contact />
       <Footer />
     </>

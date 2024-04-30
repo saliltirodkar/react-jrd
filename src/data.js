@@ -7,7 +7,7 @@ export const pageLinks = [
   { id: 2, href: "/catalogue", text: "catalogue" },
   { id: 3, href: "/diamond", text: "diamonds" },
   { id: 4, href: "/events", text: "events" },
-  { id: 5, href: "#about", text: "about us" },
+  { id: 5, href: "/about", text: "about us" },
 ];
 export const socialLinks = [
   { id: 1, href: "https://www.faccebook.com", icon: "fab fa-facebook" },
@@ -38,7 +38,7 @@ export const services = [
       "https://jrdiamgroup.com/wp-content/uploads/2024/04/usa-asscoiates1.png",
 
     title: "New York",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    text: "lorem ipsum dolor sit amwr consecuter adipising elit ",
   },
   {
     id: 4,
@@ -199,9 +199,11 @@ export const itemsdiam = [
 export const trades = [
   {
     id: 1,
+    image:
+      "https://jrdiamgroup.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-05-at-1.27.24-PM.jpeg",
     start_date: "5th May",
     end_date: "8th May",
-    date: "5th May - 8th May",
+    date: "5th May to 8th May",
     title: "Gem Geneva",
     booth: "1234",
     hall: "2A",
@@ -209,6 +211,8 @@ export const trades = [
   },
   {
     id: 2,
+    image:
+      "https://jrdiamgroup.com/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-05-at-5.01.09-PM-1.jpeg",
     start_date: "5th May",
     end_date: "8th May",
     date: "5th May - 8th May",
@@ -219,6 +223,8 @@ export const trades = [
   },
   {
     id: 3,
+    image: "https://jrdiamgroup.com/wp-content/uploads/2024/01/Jan-2024.png",
+
     start_date: "5th May",
     end_date: "8th May",
     date: "5th May - 8th May",
@@ -229,6 +235,9 @@ export const trades = [
   },
   {
     id: 4,
+    image:
+      "https://jrdiamgroup.com/wp-content/uploads/2023/10/Trade-shows1.jpeg",
+
     start_date: "5th May",
     end_date: "8th May",
     date: "5th may - 8th May",

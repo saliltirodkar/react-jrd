@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 
 // import Button from "react-bootstrap/Button";
 // import Modal from "react-bootstrap/Modal";
@@ -13,10 +13,10 @@ function TradeEvent2({
   hall,
   venue,
 }) {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
   return (
     <Fragment>

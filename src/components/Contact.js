@@ -12,7 +12,7 @@ const Contact = () => {
                 <div class="col-md-10">
                   <div class="contact_form_inner">
                     <div class="contact_field">
-                      <Title title="contact" subTitle="us" />
+                      <Title title="" subTitle="contact us" />
                       <p>
                         Feel Free to contact us any time. We will get back to
                         you as soon as we can!.

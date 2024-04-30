@@ -18,8 +18,8 @@ const images = [
 const Gallery = () => {
   return (
     <section className="section services" id="services">
-      <Title title="our" subTitle="products" />
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 4 }}>
+      <Title title="" subTitle="our products" />
+      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 3 }}>
         <Masonry gutter="10px">
           {images.map((image, i) => (
             <img

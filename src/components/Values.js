@@ -6,7 +6,7 @@ import Value from "./Value";
 const Values = () => {
   return (
     <section className="section values-banner" id="values">
-      <Title title="our" subTitle="values" />
+      <Title title="" subTitle="our values" />
 
       {/*<div className="section-center about-center">
          <article className="about-info">

@@ -1,10 +1,11 @@
 // import aboutImg from "../images/about.jpeg";
+import { Link } from "react-router-dom";
 import Title from "./Title";
 
 const About = () => {
   return (
     <section className="section" id="about">
-      <Title title="about" subTitle="us" />
+      <Title title="" subTitle="about us" />
 
       <div className="section-center about-center">
         <div className="about-img">
@@ -26,9 +27,9 @@ const About = () => {
             "Customer Trust and Satisfaction <br />
             is our Biggest Asset"
           </h3>
-          <a href="#" className="btn">
+          <Link to="/about" className="btn">
             know more
-          </a>
+          </Link>
         </article>
       </div>
     </section>
