@@ -23,11 +23,11 @@ const About = () => {
             Sanspara, the principles of the group were laid on the values of
             prioritizing purity, quality and excellence.
           </p>
-          <h3>
+          <h3 className="about-quote">
             "Customer Trust and Satisfaction <br />
             is our Biggest Asset"
           </h3>
-          <Link to="/about" className="btn">
+          <Link to="/about" className="btn btn-about">
             know more
           </Link>
         </article>

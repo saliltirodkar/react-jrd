@@ -11,7 +11,7 @@ const images = [
   //   "https://jrdiamgroup.com/wp-content/uploads/2021/05/4t.jpg",
   "https://jrdiamgroup.com/wp-content/uploads/2021/05/2-2.jpg",
   "https://jrdiamgroup.com/wp-content/uploads/2021/05/4.jpg",
-  "https://jrdiamgroup.com/wp-content/uploads/2021/05/5.jpg",
+  "https://jrdiamgroup.com/wp-content/uploads/2021/05/2-2.jpg",
   "https://jrdiamgroup.com/wp-content/uploads/2021/05/4.jpg",
 ];
 

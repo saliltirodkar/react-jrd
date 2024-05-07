@@ -16,8 +16,8 @@ const Events = () => {
           return <TradeEvent2 {...tradeShows} key={tradeShows.id} />;
         })}
       </div> */}
-      <Title title="" subTitle="our trade shows2" />
-      <div className="section-center featured-center">
+      <Title title="" subTitle="our trade shows" />
+      <div className="section-center featured-center-event">
         {trades.map((tour) => {
           return <TradeEvent1 {...tour} key={tour.id} />;
         })}
