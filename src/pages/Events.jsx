@@ -1,10 +1,8 @@
 import { trades } from "../data";
 
 import Title from "../components/Title";
-import Tour from "../components/Tours";
-import { tours } from "../data";
 
-import TradeEvent2 from "../components/TradeEvent2";
+// import TradeEvent2 from "../components/TradeEvent2";
 import TradeEvent1 from "../components/TradeEvent1";
 
 const Events = () => {
