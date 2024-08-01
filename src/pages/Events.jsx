@@ -2,18 +2,18 @@ import { trades } from "../data";
 
 import Title from "../components/Title";
 
-// import TradeEvent2 from "../components/TradeEvent2";
+import TradeEvents from "../components/TradeEvents";
 import TradeEvent1 from "../components/TradeEvent1";
 
 const Events = () => {
   return (
     <section className="section events" id="services">
-      {/* <Title title="" subTitle="our trade shows" />
-      <div className="section-center about-center">
+      <Title title="" subTitle="our trade shows" />
+      <div className="trade-section-center">
         {trades.map((tradeShows) => {
-          return <TradeEvent2 {...tradeShows} key={tradeShows.id} />;
+          return <TradeEvents {...tradeShows} key={tradeShows.id} />;
         })}
-      </div> */}
+      </div>
       <Title title="" subTitle="our trade shows" />
       <div className="section-center featured-center-event">
         {trades.map((tour) => {

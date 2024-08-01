@@ -13,14 +13,25 @@ function TradeEvents({ id, start_date, end_date, title, booth, hall, venue }) {
     <Fragment>
       <div className="trade-container trade-event">
         <div className="flex-item-left">
-          {start_date}
+          {/* {start_date}
           <br /> to
-          <br /> {end_date}
+          <br /> {end_date} */}
+          <img
+            src={
+              "https://i0.wp.com/jrdiamgroup.com/wp-content/uploads/2021/06/Cut.jpg?w=588&ssl=1"
+            }
+            alt={title}
+          />
         </div>
 
         <div className="flex-item-right">
           <ul className="trade-text">
-            <li> {title}</li>
+            <li>
+              <h2 className="trade-title"> {title}</h2>
+            </li>
+            <li>
+              {start_date} to {end_date}
+            </li>
             <li>Booth : {booth}</li>
             <li>Hall : {hall}</li>
             <li>Venue : {venue}</li>
@@ -42,6 +53,11 @@ function TradeEvents({ id, start_date, end_date, title, booth, hall, venue }) {
               </Modal> */}
             </li>
           </ul>
+          <span className="date-event">
+            <h3>
+              {start_date} to {end_date}
+            </h3>
+          </span>
         </div>
       </div>
     </Fragment>
