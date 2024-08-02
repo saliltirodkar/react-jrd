@@ -9,6 +9,7 @@ import Services from "../components/Services";
 import Tours from "../components/Tours";
 // import Values from "../components/Values";
 import Navbar from "../components/navbar";
+import AssociateInfo from "../components/AssociateInfo";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Tours />
       <About />
       <Services />
+      <AssociateInfo />
       {/* <Values /> */}
       <Contact />
       <Footer />
